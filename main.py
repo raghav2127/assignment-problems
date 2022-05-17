@@ -126,3 +126,45 @@
 # chck_(2)
 # chck_(6)
 # chck_(1230)
+
+# decorator fuction for reverse the string
+
+
+# def spam(func):
+#     def wrapper(*args,**kwargs):
+#         print("reversed")
+#         func(*args,**kwargs)
+#     return wrapper
+# @spam
+#
+# def rev_(*args,**kwargs):
+#     for i in args:
+#         if isinstance(i,str):
+#             print(i[::-1])
+#     for j in kwargs:
+#         if isinstance(kwargs[j],str):
+#             print(kwargs[j][::-1])
+#
+# rev_("hello", string ="bye")
+
+
+# decorator function to add positional and keyword arguments
+
+#
+# def disp(func):
+#     def wrapper(*args,**kwargs):
+#         print("excution")
+#         return func(*args,**kwargs)
+#     return wrapper
+# @disp
+#
+# def add_(*args,**kwargs):
+#     sum = 0
+#     for i in args:
+#         sum+=i
+#     for j in kwargs:
+#         sum+=kwargs[j]
+#
+#     return sum
+#
+# print(add_(2,1,6,4,6,9,86,3,a=10,b=15))
