@@ -17,6 +17,19 @@
 # print(b)
 
 
+
+# count the vowels in the given string
+
+# s = str(input("Enter the string:"))
+# l = ["a","e","i","o","u","A","E","I","O","U"]
+# for i in s:
+#     for v,x in enumerate(l):
+#         if i==x:
+#             print(i,i.count(i))
+#
+
+
+
 #REVERSE THE STRING USING FOR LOOP
 
 # s = "hello"
